@@ -3,7 +3,7 @@
 1 1 210 297 0 0 2
 5
 [contact_PLA.txt]
-Y:\Research\BIO\ChickenSkin\Jet\distribution_txt\contact_PLA.txt
+C:\tmp\contact_PLA.txt
 0 0 0 0 0 1 63 0 -1 
 50 65280 300 0 0 0 0
 1 10 300 65280
@@ -16,7 +16,7 @@ y
 
 
 [contact.txt]
-Y:\Research\BIO\ChickenSkin\Jet\distribution_txt\contact.txt
+C:\tmp\contact.txt
 0 0 0 0 0 1 74 0 -1 
 50 0 300 0 0 0 0
 1 8 300 0
@@ -29,7 +29,7 @@ y
 
 
 [contact.txt]
-Y:\Research\BIO\ChickenSkin\Jet\distribution_txt\contact.txt
+C:\tmp\contact.txt
 0 0 0 0 0 2 74 0 -1 
 50 16744448 300 0 0 0 0
 1 2 300 16744448
@@ -42,7 +42,7 @@ y
 
 
 [contact.txt]
-Y:\Research\BIO\ChickenSkin\Jet\distribution_txt\contact.txt
+C:\tmp\contact.txt
 0 0 0 0 0 3 74 0 -1 
 50 255 300 0 0 0 0
 1 4 300 255
@@ -55,7 +55,7 @@ y
 
 
 [contact.txt]
-Y:\Research\BIO\ChickenSkin\Jet\distribution_txt\contact.txt
+C:\tmp\contact.txt
 0 0 0 0 0 4 74 0 -1 
 50 33023 300 0 0 0 0
 1 6 300 33023
@@ -105,7 +105,7 @@ Times New Roman
 0 0 150 40 0 300 3
 
 [LEGEND]
-3
+2
 4
 7000 12000 0 1 1 0
 Position (mm)
@@ -124,16 +124,6 @@ Arial
 -2400 0 -900 900 400 0 0 0 128 3 2 1 17
 ‚l‚r –¾’©
 -2400 0 -900 900 400 0 0 0 2 3 2 1 18
-Symbol
-
-8
-10700 1000 0 1 0 0
-%01EPLA\n%02E0min\n%03E5min\n%04E10min\n%05E15min
--1800 0 0 0 400 0 0 0 162 3 2 1 18
-Times New Roman
--1800 0 0 0 400 0 0 0 128 3 2 1 17
-‚l‚r –¾’©
--1800 0 0 0 400 0 0 0 2 3 2 1 18
 Symbol
 
 [OTHERS]
