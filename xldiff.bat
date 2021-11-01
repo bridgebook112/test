@@ -1,4 +1,3 @@
-@ECHO OFF
 set path1=%1
 set path2=%2
 REM Create paths to original and current spreadsheets to store in tmp
@@ -10,6 +9,9 @@ if not "%path1:xls=%" == "%path1%" (
  dir %path1% /B /S > tmp.txt
  dir %path2% /B /S >> tmp.txt
  "C:\Program Files (x86)\Microsoft Office\root\Office16\DCF\spreadsheetcompare" tmp.txt
+) else if not "%path1:smp=%" == "%path1%" (
+ START "" "C:\Program Files (x86)\tsuzuki\Sma4Win\sma4win.exe" %1
+ START "" "C:\Program Files (x86)\tsuzuki\Sma4Win\sma4win.exe" %2
 ) else (
  "C:\Program Files\WinMerge\WinMergeU.exe" %1 %2
 )
