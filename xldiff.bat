@@ -11,7 +11,7 @@ if not "%path1:xls=%" == "%path1%" (
  "C:\Program Files (x86)\Microsoft Office\root\Office16\DCF\spreadsheetcompare" tmp.txt
 ) else if not "%path1:smp=%" == "%path1%" (
  START "" "C:\Program Files (x86)\tsuzuki\Sma4Win\sma4win.exe" %1
- START "" "C:\Program Files (x86)\tsuzuki\Sma4Win\sma4win.exe" %2
+ START "" "C:\Program Files (x86)\tsuzuki\Sma4Win\sma4win.exe" %2 
 ) else (
  "C:\Program Files\WinMerge\WinMergeU.exe" %1 %2
 )
