@@ -10,8 +10,8 @@ if not "%path1:xls=%" == "%path1%" (
  dir %path2% /B /S >> tmp.txt
  "C:\Program Files (x86)\Microsoft Office\root\Office16\DCF\spreadsheetcompare" tmp.txt
 ) else if not "%path1:smp=%" == "%path1%" (
- copy /B "%~f1" "%~dp0\before.smp"
- copy /B "%~f2" "%~dp0\after.smp"
+ copy "%~f1" "%~dp0\before.smp"
+ copy "%~f2" "%~dp0\after.smp"
  Start "" before.smp
  Start "" after.smp
 ) else (
