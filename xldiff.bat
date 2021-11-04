@@ -11,9 +11,11 @@ if not "%path1:xls=%" == "%path1%" (
  "C:\Program Files (x86)\Microsoft Office\root\Office16\DCF\spreadsheetcompare" tmp.txt
 ) else if not "%path1:smp=%" == "%path1%" (
  if not "%~f1" == "%~dp0before.SMP" (
-  copy "%~f1" "%~dp0\before.smp"
+  copy /B "%~f1" "%~dp0\before.txt"
  )
- copy "%~f2" "%~dp0\after.smp"
+ copy /B "%~f2" "%~dp0\after.txt"
+ find <%~dp0\before.txt /V "hogehogehoge" >%~dp0\before.smp
+ find <%~dp0\after.txt /V "hogehogehoge" >%~dp0\after.smp
  Start "" %~dp0\before.smp
  Start "" %~dp0\after.smp
 ) else (
