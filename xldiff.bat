@@ -10,12 +10,12 @@ if not "%path1:xls=%" == "%path1%" (
  dir %path2% /B /S >> tmp.txt
  "C:\Program Files (x86)\Microsoft Office\root\Office16\DCF\spreadsheetcompare" tmp.txt
 ) else if not "%path1:smp=%" == "%path1%" (
- if not "%~f1" == "%~dp0before.smp" (
+ if not "%~f1" == "%~dp0before.SMP" (
   copy "%~f1" "%~dp0\before.smp"
  )
  copy "%~f2" "%~dp0\after.smp"
- Start "" before.smp
- Start "" after.smp
+ Start "" %~dp0\before.smp
+ Start "" %~dp0\after.smp
 ) else (
  "C:\Program Files\WinMerge\WinMergeU.exe" %1 %2
 )
